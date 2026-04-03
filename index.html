@@ -7,6 +7,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 <style>
+  /* Footer Styling */
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10000; /* Sabse upar rakhne ke liye */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    border-top: 1px solid rgba(0, 255, 255, 0.3);
+}
+.site-footer a {
+    color: #0ff;
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.site-footer a:hover {
+    text-shadow: 0 0 10px #0ff;
+}
 * { margin: 0; padding: 0; box-sizing: border-box; }
 #menuScreen {
   position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
